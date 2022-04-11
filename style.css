@@ -58,10 +58,6 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-thumb {
   background:  #b15662;
-} 
-
- #top-image {
-  border-radius: 50%;
 }
 
 p{
@@ -105,7 +101,6 @@ img {
 }
 
 .nav {
- 
   top: 0;
   left: 0;
   width: 100%;
@@ -115,7 +110,6 @@ img {
 }
 
 @media (min-width: 620px) {
-
 .nav{
   display: flex;
   flex-direction: row;
