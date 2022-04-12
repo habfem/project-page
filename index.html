@@ -1,20 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
   <meta charset="UTF-8">
-  
-  <title>Portfolio Page</title>
-  
+	<title>Portfolio Page</title>
   <link rel="shortcut icon" type="image" href="https://avatars.githubusercontent.com/u/72679550?v=4"
   style="border-radius: 100%;">
-  
-  
-  <link rel="stylesheet" href="./style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Roboto:wght@900&amp;display=swap'><link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
-
-<link
+	<link
   href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
   rel="stylesheet"/>
   
@@ -22,27 +18,26 @@
 </link>
 
 <!-- START NAV -->
-<nav id="navbar" class="nav">
-        <a href="#" class="toggle-button">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </a>
-  <ul class="nav-list">
-    <li><a href="#welcome-section">About</a></li>
+<nav>
+	<input id="nav-toggle" type="checkbox">
+	<ul class="links">
+		<li><a href="#welcome-section">About</a></li>
     <li><a href="#experience">Experience</a></li>
     <li><a href="#projects">Work</a></li>
-   <li><a href="#education">Education </a></li>
+   	<li><a href="#education">Education </a></li>
     <li><a href="#contact">Contact</a></li>
-  </ul>
+	</ul>
+	<label for="nav-toggle" class="icon-burger">
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+	</label>
 </nav>
-<!-- END NAV -->
-
 <!-- START WELCOME SECTION -->
 
 <section id="welcome-section" class="welcome-section">
-  <h1>Hi, I am Habeeb Mustapha</h1>
-  <p class = "container">Motivated frontend engineer, interested in IT security with experience in backend development, UI/UX, and code review. Looking for a long-term role, with a focus on software development.</p>
+  <h1 class="container">Hi, I am Habeeb Mustapha</h1>
+  <p>Motivated frontend engineer, interested in IT security with experience in backend development, UI/UX, and code review. Looking for a long-term role, with a focus on software development.</p>
 </section>
 
 <!-- END WELCOME SECTION -->
@@ -281,6 +276,6 @@ SEP 2012 - AUG 2016 </p>
 <!-- END FOOTER SECTION -->
 <!-- partial -->
   <script  src="./script.js"></script>
-
+  
 </body>
 </html>
