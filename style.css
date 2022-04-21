@@ -232,6 +232,23 @@ nav .icon-burger .line {
   padding-top: 7rem;
 }
 
+@media(min-width:768px) {
+  .container-1 {
+    display: flex;
+    padding: 20px;
+  }
+  .boxs-1 {
+    flex-basis: 50%;
+  }
+  .boxs-2 {
+    flex-basis: 50%;
+  }
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
 /* Project section */
 .projects-section {
   text-align: center;
