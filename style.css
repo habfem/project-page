@@ -425,3 +425,8 @@ footer i {
     flex-direction: column;
   }
 }
+/**Resizing**/
+ #resizing{
+  padding-left: 45px;
+  padding-right: 45px;
+} 
